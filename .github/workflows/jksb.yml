@@ -27,3 +27,11 @@ jobs:
         PYTHONIOENCODING: utf-8
         PYTHONLEGACYWINDOWSSTDIO: utf-8
       run: python jksb_sysu.py
+      
+    - name: jksb_hy
+      env:
+        NETID: ${{secrets.NETID_HY}}
+        PASSWORD: ${{secrets.PASSWORD_HY}}
+        PYTHONIOENCODING: utf-8
+        PYTHONLEGACYWINDOWSSTDIO: utf-8
+      run: python jksb_sysu.py
