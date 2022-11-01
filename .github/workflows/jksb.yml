@@ -42,4 +42,4 @@ jobs:
         PASSWORD: ${{secrets.PASSWORD_ZCH}}
         PYTHONIOENCODING: utf-8
         PYTHONLEGACYWINDOWSSTDIO: utf-8
-      run: python jksb_sysu.py
+      run: python jksb_zch.py
